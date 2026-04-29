@@ -1,0 +1,82 @@
+{
+  "name": "readme-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to auto-generate professional README.md files using GitHub markdown syntax",
+  "main": "lib/generateReadme.js",
+  "bin": {
+    "make-readme": "./bin/index.js"
+  },
+  "keywords": [
+    "readme",
+    "README",
+    "readme generator",
+    "generate readme",
+    "AI readme",
+    "cli readme tool",
+    "markdown readme",
+    "auto readme",
+    "developer tools",
+    "open source",
+    "github readme",
+    "github readme generator",
+    "readme-cli",
+    "readme cli",
+    "readme wizard",
+    "project documentation",
+    "npm cli tool",
+    "readme automation",
+    "github markdown",
+    "nodejs cli",
+    "generate documentation",
+    "dev productivity",
+    "code parser",
+    "google gemini",
+    "tree-sitter",
+    "ai powered readme",
+    "generate markdown"
+  ],
+  "author": "Prabal Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrabalKumar2311/Readme-CLI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PrabalKumar2311/Readme-CLI/issues"
+  },
+  "funding": "https://github.com/sponsors/PrabalKumar2311",
+  "dependencies": {
+    "@google/genai": "^1.11.0",
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^4.1.2",
+    "dotenv": "^17.2.1",
+    "figlet": "^1.8.2",
+    "fs-extra": "^11.3.0",
+    "globby": "^11.1.0",
+    "inquirer": "^8.2.4",
+    "ora": "5.4.1",
+    "prompts": "^2.4.2",
+    "simple-git": "^3.28.0",
+    "tree-sitter": "^0.21.1",
+    "tree-sitter-c-sharp": "^0.21.1",
+    "tree-sitter-cpp": "^0.21.0",
+    "tree-sitter-css": "^0.21.0",
+    "tree-sitter-go": "^0.21.0",
+    "tree-sitter-html": "^0.23.2",
+    "tree-sitter-java": "^0.21.0",
+    "tree-sitter-javascript": "^0.23.1",
+    "tree-sitter-php": "^0.23.12",
+    "tree-sitter-python": "^0.21.0",
+    "tree-sitter-ruby": "^0.21.0",
+    "tree-sitter-rust": "^0.21.0",
+    "tree-sitter-typescript": "^0.23.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepublishOnly": "cp npm-README.md README.md",
+    "postpublish": "git restore README.md"
+  },
+  "type": "commonjs"
+}
